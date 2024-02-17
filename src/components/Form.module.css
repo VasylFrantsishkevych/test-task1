@@ -1,0 +1,45 @@
+.container{
+    height: 100vh;
+    padding-top: 100px;
+}
+
+.wrap {
+    box-shadow: 0 0 5px #50af50;
+    border-radius: 10px;
+    width: 400px;
+    padding: 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    column-gap: 15px;
+    align-items: center;
+}
+
+select {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: cursive, sans-serif;
+    outline: 0;
+    border: 1px solid #50af50;
+    padding: 10px;
+    border-radius: 9px;
+    cursor: pointer;
+}
+button {
+    height: 40px;
+    background: #50af50;
+    cursor: pointer;
+    border: none;
+    border-radius: 9px;
+    color: #fff;
+}
+
+button:hover {
+    background: #81cc81;
+}
+
